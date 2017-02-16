@@ -2,3 +2,12 @@
 {% block title_block %}
     linbin
 {% endblock %}
+
+{% block content %}
+    <div class="container" style="padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; display: block;">
+        <div class="row">
+            {% include "list.html" %}
+            {% include "side.html" %}
+        </div>
+    </div>
+{% endblock %}
